@@ -1,5 +1,7 @@
+import {bannerType} from './bannerType'
 import {eventType} from './eventType'
 import {artistType} from './artistType'
 import {venueType} from './venueType'
 
-export const schemaTypes = [artistType, eventType, venueType]
+
+export const schemaTypes = [artistType, eventType, venueType, bannerType]
